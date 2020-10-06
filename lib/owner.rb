@@ -45,6 +45,7 @@ class Owner
   end
   
   def walk_dogs
-    
+    self.dogs.each do |doggo|
+      
   end
 end
