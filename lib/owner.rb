@@ -24,5 +24,6 @@ class Owner
     @@all.clear
   end
   
-  def cat
+  def cats 
+    Cat.all.each 
 end
