@@ -35,4 +35,8 @@ class Owner
       doggo.owner == self
     end
   end
+  
+  def buy_cat
+    
+  end
 end
