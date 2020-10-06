@@ -9,4 +9,6 @@ class Owner
     @name = name
     @@owners << self
   end
+  
+  
 end
