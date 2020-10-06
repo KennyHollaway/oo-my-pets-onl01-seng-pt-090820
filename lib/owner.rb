@@ -29,4 +29,10 @@ class Owner
       kitten.owner == self
     end
   end
+  
+  def dogs 
+    Dog.all.select do |doggo|
+      doggo.owner == self
+    end
+  end
 end
