@@ -26,4 +26,6 @@ class Owner
   
   def cats 
     Cat.all.each do |kitten|
+  end
+  end
 end
