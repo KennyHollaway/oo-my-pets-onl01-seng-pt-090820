@@ -12,7 +12,7 @@ class Owner
    "I am a #{self.species}."
   end
   
-  def .all
+  def self.all
     @@all
   end
 end
