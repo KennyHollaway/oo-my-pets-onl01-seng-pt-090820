@@ -59,12 +59,12 @@ class Owner
   def sell_pets
     self.dogs.each do |wrong|
       self.dogs.delete(wrong)
-      dog.owner = nil 
+      dogs.owner = nil 
       wrong.mood= "nervous"
     end
     self.cats.each do |wrong|
       self.cats.delete(wrong)
-      cat.owner = nil
+      cats.owner = nil
       wrong.mood= "nervous"
     end
   end
