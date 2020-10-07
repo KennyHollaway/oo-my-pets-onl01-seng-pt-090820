@@ -12,6 +12,5 @@ class Cat
 
 
   def self.all
-     @name = name	    @@all
-     @mood = "nervous"	  end
+    @@all
      @owner = owner	end
