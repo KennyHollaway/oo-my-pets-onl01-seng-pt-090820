@@ -45,7 +45,7 @@ class Owner
   
 
   def buy_cat(name)
-    Cat.new(name, owner)
+    Cat.new(name, self)
   end
 
   def walk_dogs
