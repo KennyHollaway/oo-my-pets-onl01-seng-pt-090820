@@ -42,4 +42,6 @@ class Owner
       cat.owner = nil
       cat.mood = "nervous"
     end
-    self.
+    self.dogs.each do |dog|
+      self.dogs.delete(dog)
+      dog
