@@ -44,13 +44,7 @@ class Owner
   end
   
 
-  def buy_cat
-    @@pets[:cats] << Cat.new(name, owner)
-  end
-
-  def buy_dog
-    @@pets[:dogs] << Dog.new(name, owner)
-  end
+  
 
   def walk_dogs
     @@pets[:dogs].each do |dog|
