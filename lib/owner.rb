@@ -63,9 +63,8 @@ class Owner
       wrong.mood= "nervous"
     end
     self.cats.each do |wrong|
+      
       wrong.mood= "nervous"
     end
-    dogs.clear
-    cats.clear
   end
 end
