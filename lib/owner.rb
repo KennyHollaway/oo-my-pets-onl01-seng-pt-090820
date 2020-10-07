@@ -32,7 +32,8 @@ class Owner
   end
   
   def cats
-    Cat
+    Cat.all.select do |kitty|
+      
 
   def buy_cat(cat)
     @@pets[:cats] << Cat.new(cat)
