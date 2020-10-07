@@ -12,4 +12,8 @@ class Owner
     @dogs = []
   end
   
+  def self.all
+    @@all
+  end
+  
   def 
