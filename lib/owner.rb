@@ -20,4 +20,6 @@ class Owner
     "I am a #{self.species}."
   end
   
-  def 
+  def buy_cat
+    Cat.new(name, self)
+  end
