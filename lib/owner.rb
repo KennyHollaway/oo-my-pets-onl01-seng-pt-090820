@@ -17,4 +17,7 @@ class Owner
   end
   
   def say_species
-    "I am a "
+    "I am a #{self.species}."
+  end
+  
+  def 
