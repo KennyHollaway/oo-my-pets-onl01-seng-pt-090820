@@ -16,4 +16,5 @@ class Owner
     @@all
   end
   
-  def 
+  def say_species
+    "I am a "
